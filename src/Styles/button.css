@@ -1,0 +1,20 @@
+.btn{
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-main{
+    background-color: #4C6FFF;
+    color: white;
+}
+
+.btn-secondary{
+    background-color: #E4ECF7;
+    color: #505780;
+}

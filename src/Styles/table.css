@@ -1,0 +1,81 @@
+.table-header{
+    display: flex;
+}
+
+.table-header > div{
+    flex: 1;
+    font-size: 10px;
+    padding: 18px 24px;
+    color: #8492A6;
+    background-color: #FAFAFB;
+    border-top: 1px solid #EDFEF7;
+    border-bottom: 1px solid #EDFEF7;
+    font-weight: bold;
+}
+
+.table-body{
+    height: 580px;
+}
+
+.table-row {
+    display: flex;
+    background-color: white;
+    cursor: pointer;
+}
+
+.table-row:hover {
+    background-color: #EDFEF7;
+}
+
+.table-row > div {
+    flex: 1;
+    font-size: 14px;
+    padding: 18px 24px;
+    color: #425466;
+    border-bottom: 1px solid #EDFEF7;
+}
+
+.bold-text{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.table-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 18px 24px;
+}
+
+.table-footer-result{
+    color: #718096;
+    font-size: 14px;
+}
+
+.table-footer-pagination > ul{
+    list-style: none;
+}
+
+.table-footer-pagination > ul > li.pagination-item{
+    display: inline-block;
+    font-size: 10px;
+    color: #16192C;
+    padding: 8px 16px;
+    margin: 2px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(48,48,48,0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.table-footer-pagination > ul > li.pagination-active-item{
+    background-color: #4C6FFF;
+    color: white;
+    box-shadow: 0 1px 3px rgba(48,48,48,0.3);
+}
+
+.table-footer-pagination > ul > li.pagination-disable-item{
+    background-color: #EEE;
+    color: black;
+}

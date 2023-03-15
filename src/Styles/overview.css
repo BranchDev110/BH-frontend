@@ -1,0 +1,15 @@
+.container{
+    width: 1110px;
+    height: 768px;
+    background-color: #FFF;
+    border-radius: 16px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 24px;
+}
+.header p{
+    font-weight: bold;
+}
